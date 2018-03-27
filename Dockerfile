@@ -22,6 +22,7 @@ RUN apt-get update \
     libdc1394-22-dev \
     openexr \
     python-pip \
+    python-matplotlib \
     && apt-get autoremove \
     && apt-get clean
 
